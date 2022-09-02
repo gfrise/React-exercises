@@ -18,5 +18,6 @@ class Welcome extends React.Component {
 	}
 }
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Welcome name={"Bro"} age={23}/>);
