@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class Hello extends React.Component {
+class App extends React.Component {
     render() {
-        return <h1>Hello World</h1>;
+        return (
+            <div>
+                <h1>Hello World</h1>
+            </div>
+        )
     }
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Hello />);
+root.render(<App />)
