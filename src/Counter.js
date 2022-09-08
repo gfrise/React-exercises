@@ -1,7 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-class Counter extends React.Component {
+export class Counter extends React.Component {
     state = {
         count: 0
     }
@@ -22,6 +21,3 @@ class Counter extends React.Component {
         return <h1>{this.state.count}</h1>
     }
 }
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Counter />);
